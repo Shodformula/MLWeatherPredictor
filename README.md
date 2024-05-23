@@ -1,5 +1,3 @@
-![Alt text](https://spacecityweather.com/wp-content/uploads/2021/10/CODNEXLAB-GOES-East-local-Austin-comp_radar-11_35Z-20211001_counties-usstrd-ushw-usint-map-id_-20-1n-10-100.gif)
-
 # MLWeatherPredictor-Dallas
 
 This project involves developing a machine learning model to predict weather conditions for a specified date using historical weather data for the city of Dallas. The model forecasts temperature, visibility, dew point, feels-like temperature, pressure, humidity, wind speed, and cloud coverage.
