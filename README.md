@@ -1,6 +1,17 @@
 # MLWeatherPredictor-Dallas
 
-This project involves developing a machine learning model to predict weather conditions for a specified date using historical weather data for the city of Dallas. The model forecasts temperature, visibility, dew point, feels-like temperature, pressure, humidity, wind speed, and cloud coverage.
+This project involves developing a machine learning model to predict weather conditions for a specified date using historical weather data for the city of Dallas. By leveraging historical weather patterns, the model forecasts multiple weather parameters, providing a detailed weather outlook for the chosen date. Specifically, the model predicts:
+
+- **Temperature**: The expected air temperature in degrees Fahrenheit.
+- **Visibility**: The distance one can clearly see, measured in meters.
+- **Dew Point**: The temperature at which air becomes saturated with moisture, measured in degrees Fahrenheit.
+- **Feels-Like Temperature**: The apparent temperature considering wind and humidity, measured in degrees Fahrenheit.
+- **Pressure**: The atmospheric pressure at sea level, measured in hectopascals (hPa).
+- **Humidity**: The relative humidity as a percentage.
+- **Wind Speed**: The speed of the wind, measured in meters per second.
+- **Cloud Coverage**: The fraction of the sky covered by clouds, expressed as a percentage.
+
+The project utilizes linear regression models trained on historical weather data to provide accurate and reliable predictions. It incorporates extensive data processing, feature engineering, and model evaluation techniques to ensure the model's robustness and accuracy. The final product is an interactive Python script that prompts users for a specific date and returns detailed weather predictions based on historical trends.
 
 ## Project Structure
 

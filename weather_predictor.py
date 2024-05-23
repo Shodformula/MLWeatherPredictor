@@ -4,7 +4,7 @@ from sklearn.model_selection import TimeSeriesSplit, cross_val_score
 from sklearn.linear_model import LinearRegression
 from datetime import datetime
 
-file_path = 'cleaned_weather_data.csv'
+file_path = 'DallasWeather40Years.csv'
 data = pd.read_csv(file_path)
 
 data['dt_iso'] = data['dt_iso'].str.replace(' UTC', '', regex=False)
@@ -16,7 +16,7 @@ constant_columns = [col for col in data.columns if data[col].nunique() == 1]
 data = data.drop(columns=constant_columns)
 
 
-cleaned_file_path = 'DallasWeather40Years.csv'
+cleaned_file_path = 'cleaned_weather_data.csv'
 data.to_csv(cleaned_file_path, index=False)
 
 # Filter data for a specific date
