@@ -1,6 +1,6 @@
-# MLWeatherPredictor-Dallas
+# MLWeatherPredictor
 
-This project involves developing a machine learning model to predict weather conditions for a specified date using historical weather data for the city of Dallas. By leveraging historical weather patterns, the model forecasts multiple weather parameters, providing a detailed weather outlook for the chosen date. Specifically, the model predicts:
+This project involves developing a machine learning model to predict weather conditions for a specified date using historical weather data. By leveraging historical weather patterns, the model forecasts multiple weather parameters, providing a detailed weather outlook for the chosen date. Specifically, the model predicts:
 
 - **Temperature**: The expected air temperature in degrees Fahrenheit.
 - **Visibility**: The distance one can clearly see, measured in meters.
@@ -16,7 +16,7 @@ The project utilizes linear regression models trained on historical weather data
 ## Project Structure
 
 - `weather_predictor.py`: Main script containing data processing, model training, and prediction logic.
-- `DallasWeather40Years.csv`: Historical weather data file.
+- `DallasWeather40Years.csv`: Historical weather data file for the city of Dallas
 
 ## Features
 
@@ -38,8 +38,9 @@ The project utilizes linear regression models trained on historical weather data
    pip install pandas scikit-learn numpy
 
 3. **Place the Dataset**:
+   Find a dataset for any city using services such as the OpenWeatherMap website
    Place the dataset in the same directory as the weather_predictor.py file
-   The data set is available here: https://drive.google.com/file/d/1tkzNEhMolT0frTo6uIbDb30guDKsQEW6/view?usp=sharing
+   The data set that I used is available here: https://drive.google.com/file/d/1tkzNEhMolT0frTo6uIbDb30guDKsQEW6/view?usp=sharing
 
 ## Usage
 
