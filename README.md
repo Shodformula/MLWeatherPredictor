@@ -64,3 +64,5 @@ Pressure: 1011.86 hPa
 Humidity: 71.46%
 Wind Speed: 4.60 m/s
 Cloud Coverage: 61.72%
+
+![weather](weather.gif)
