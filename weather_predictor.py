@@ -4,6 +4,7 @@ from sklearn.model_selection import TimeSeriesSplit, cross_val_score
 from sklearn.linear_model import LinearRegression
 from datetime import datetime
 
+# Can use CSV for any city
 file_path = 'DallasWeather40Years.csv'
 data = pd.read_csv(file_path)
 
